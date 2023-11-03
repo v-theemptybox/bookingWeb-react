@@ -1,0 +1,45 @@
+.img-container {
+  margin-top: 48px;
+  position: relative;
+  color: white;
+
+  max-width: 25%;
+}
+
+.img-container img {
+  border-radius: 12px;
+}
+.img-container h2 {
+  position: absolute;
+  bottom: 48px;
+  left: 12px;
+}
+
+.img-container h3 {
+  position: absolute;
+  bottom: 24px;
+  left: 12px;
+}
+
+.properties-item img {
+  border-radius: 12px 12px 2px 2px;
+}
+
+.hotel-item {
+  line-height: 1.5;
+}
+
+.hotel-item a {
+  color: #5b2ba6;
+  font-weight: 600;
+}
+
+.hotel-item p:nth-child(5) {
+  font-weight: 500;
+}
+
+#user-rate {
+  background: #003580;
+  color: white;
+  padding: 2px;
+}

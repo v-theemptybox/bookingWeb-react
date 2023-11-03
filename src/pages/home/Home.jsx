@@ -1,13 +1,13 @@
 import Navbar from "./Navbar";
 import Header from "./Header";
-import Cities from "./Cities";
+import BodyContent from "./BodyContent";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Header />
-      <Cities />
+      <BodyContent />
     </div>
   );
 };

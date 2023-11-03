@@ -1,0 +1,12 @@
+.main-content {
+  width: 70%;
+  margin: auto;
+}
+.flex-content {
+  display: flex;
+  justify-content: space-between;
+}
+.content-title {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
