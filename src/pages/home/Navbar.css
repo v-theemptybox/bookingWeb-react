@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #003580;
+  color: white;
+}
+
+.flex-navbar {
+  display: flex;
+  margin: 0 24px;
+  padding: 12px 0;
+  gap: 24px;
+}
+
+.flex-navbar span {
+  flex-grow: 1;
+}
+
+.flex-navbar button {
+  color: #003580;
+  background-color: white;
+  padding: 4px;
+  border: 1px solid #003580;
+  border-radius: 2px;
+}
+
+ul {
+  padding: 8px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.active-btn {
+  inherits: none;
+  border: 1px solid white;
+  border-radius: 15%/50%;
+}
