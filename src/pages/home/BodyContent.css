@@ -10,3 +10,40 @@
   margin-top: 24px;
   margin-bottom: 16px;
 }
+
+#signUpForm {
+  background: #003580;
+  padding: 24px;
+  color: white;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+#signUpForm h2 {
+  font-size: 32px;
+}
+#signUpForm input {
+  margin-right: 12px;
+  margin-top: 24px;
+  width: 250px;
+  border-radius: 8px;
+  height: 36px;
+  border: 1px solid #003580;
+  padding-left: 8px;
+}
+
+#signUpForm button {
+  color: white;
+  height: 36px;
+  border-radius: 8px;
+  background: #0071c2;
+  border: 1px solid #003580;
+  padding: 0 8px;
+}
+
+#flex-footer {
+  font-size: 12px;
+  color: #003580;
+  margin-bottom: 24px;
+}
