@@ -1,0 +1,16 @@
+#flex-search {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#search-popup {
+  flex: 25%;
+}
+#search-list {
+  flex: 45%;
+}
