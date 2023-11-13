@@ -13,7 +13,8 @@
   margin-bottom: 12px;
 }
 
-.header button {
+.header-content > button,
+.form-control > button {
   color: white;
   background-color: #0071c2;
   padding: 8px;
@@ -21,7 +22,8 @@
   border-radius: 2px;
 }
 
-.header button:hover {
+.header-content > button:hover,
+.form-control > button:hover {
   cursor: pointer;
 }
 
@@ -54,4 +56,11 @@
 .icon {
   padding: 0 10px;
   margin-left: 12px;
+}
+
+.date-range-modal {
+  position: absolute;
+  z-index: 1;
+  top: 85%;
+  left: 32%;
 }

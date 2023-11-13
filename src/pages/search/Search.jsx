@@ -3,6 +3,7 @@ import Footer from "../home/Footer";
 import SearchPopup from "./SearchPopup/SearchPopup";
 import SearchList from "./SearchList/SearchList";
 import "./Search.css";
+import SignUpForm from "../home/SignUpForm";
 const Search = () => {
   return (
     <div className="center">
@@ -11,6 +12,7 @@ const Search = () => {
         <SearchPopup id="search-popup" />
         <SearchList id="search-list" />
       </div>
+      <SignUpForm />
       <Footer />
     </div>
   );

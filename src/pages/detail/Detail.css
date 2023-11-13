@@ -1,0 +1,79 @@
+#detail {
+  margin: auto;
+  margin-top: 24px;
+  width: 70%;
+}
+.grid-desc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.grid-desc p:nth-child(3) {
+  font-weight: 600;
+  color: #0071c2;
+}
+.grid-desc p:nth-child(4) {
+  font-weight: 600;
+  color: #008009;
+}
+.grid-desc > div {
+  grid-column: 2/3;
+  grid-row: 1/5;
+  justify-self: end;
+}
+
+.grid-desc > div > button {
+  background: #0071c2;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.grid-img {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.flex-detail__desc {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+.detail__desc {
+  flex: 70%;
+}
+
+.detail__desc p {
+  margin-top: 16px;
+  text-align: justify;
+}
+.detail__card {
+  flex: 30%;
+  padding: 16px;
+  background: #ebf3ff;
+}
+.detail__card h3 {
+  color: gray;
+}
+.detail__card p:nth-child(2) {
+  margin-top: 24px;
+}
+.detail__card p:nth-child(3) {
+  margin-top: 30px;
+  font-size: 28px;
+}
+.detail__card > button {
+  margin-top: 24px;
+  width: 100%;
+  background: #0071c2;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
